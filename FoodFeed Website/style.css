@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/*    Nav      Bar*/
+body {
+    font-family: 'Alegreya', sans-serif;
+    color: grey;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 500;
+}
+
+a:hover{
+    color: salmon;
+}
+
+img{
+    width: 100%;
+}
+
+.about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.btn{
+    border-radius: 50;
+    padding: 14px 38px;
+}
+
+.btn-brand{
+    font-weight: 400;
+    color: white;
+    background-color: salmon;
+    
+}
+
+.btn-brand:hover{
+    border-color: rgb(165, 67, 56);
+    background-color: rgb(165, 67, 56);
+}
+/*     Slide show     */
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./FoodFeed_Images/wors.jpeg);
+    align-items: center;
+}
+
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./FoodFeed_Images/wings.jpg);
+    align-items: center;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: black;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+.col-lg-5{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/*     About        */
+#about .divider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: salmon;
+}
+
+/*     Intro       */
+
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+/*     Menu       */
+
+#menu .nav-pills .nav-link{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgb(0, 0, 0, 0.1);
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: salmon;
+    color: white;
+}
+
+.menu-item .prices{
+    color: salmon;
+}
